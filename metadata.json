@@ -1,0 +1,8 @@
+{
+  "name": "Invitación de Boda - Andrea y Alonso",
+  "description": "Invitación digital minimalista y elegante para la boda de Andrea y Alonso con acceso por código, contador regresivo, itinerario, ubicaciones y confirmación por Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
