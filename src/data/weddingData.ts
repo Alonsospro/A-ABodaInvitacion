@@ -109,7 +109,7 @@ export const LOCATIONS: LocationDetail[] = [
     id: 'recepcion',
     type: 'Salón de Eventos / Recepción',
     name: 'Superfiesta, Villafraterna',
-    time: '19:30 hrs',
+    time: '20:00 hrs',
     address: 'Av. Roca y Coronado entre 4to y 5to anillo zona Villafraterna, frente a la plaza VilasBoas',
     mapUrl: 'https://maps.app.goo.gl/NnNNpQAa1SVfWJ2n9',
     embedQuery: 'Salon+Superfiesta+Villafraterna+Roca+y+Coronado+Santa+Cruz',
