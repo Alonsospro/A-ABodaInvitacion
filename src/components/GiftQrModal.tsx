@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, Download, Copy, Check, QrCode, Building, CreditCard, User } from 'lucide-react';
+import { X, Download, Copy, Check, QrCode, Building, User } from 'lucide-react';
 import { WEDDING_CONFIG, FALLBACK_QR } from '../data/weddingData';
 import { ImageWithFallback } from './ImageWithFallback';
 
@@ -115,23 +115,6 @@ export const GiftQrModal: React.FC<GiftQrModalProps> = ({ isOpen, onClose }) => 
                   <span>Banco:</span>
                 </div>
                 <strong className="text-[#2C2825]">{gift.bankDetails.bankName}</strong>
-              </div>
-
-              <div className="flex items-center justify-between pt-1 border-t border-black/5">
-                <div className="flex items-center gap-2 text-[#6B645D]">
-                  <CreditCard className="w-4 h-4 text-[#A8813B]" />
-                  <span>Nro de Cuenta:</span>
-                </div>
-                <div className="flex items-center gap-1.5">
-                  <span className="font-mono text-[11px] text-[#2C2825] font-medium">{gift.bankDetails.accountNumber}</span>
-                  <button
-                    onClick={() => handleCopy(gift.bankDetails.accountNumber, 'account')}
-                    className="p-1 text-[#8B6E33] hover:text-[#2C2825] cursor-pointer"
-                    title="Copiar cuenta"
-                  >
-                    {copiedField === 'account' ? <Check className="w-3.5 h-3.5 text-emerald-600" /> : <Copy className="w-3.5 h-3.5" />}
-                  </button>
-                </div>
               </div>
 
               <div className="flex items-center justify-between pt-1 border-t border-black/5">
