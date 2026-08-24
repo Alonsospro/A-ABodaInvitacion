@@ -83,28 +83,10 @@ export const ITINERARY: ItineraryItem[] = [
     iconName: 'glasses',
   },
   {
-    time: '22:00 hrs',
-    title: 'Palabras de los Novios',
-    description: 'Un momento especial para agradecer a todos',
-    iconName: 'heart',
-  },
-  {
     time: '22:30 hrs',
     title: 'Cena',
     description: 'Banquete especial para celebrar juntos',
     iconName: 'utensils',
-  },
-  {
-    time: '23:00 hrs',
-    title: 'Fiesta',
-    description: '¡A bailar y celebrar toda la noche!',
-    iconName: 'music',
-  },
-  {
-    time: '01:30 hrs',
-    title: 'Lanzamiento de Ramo',
-    description: '¿Quién será el o la siguiente?',
-    iconName: 'flower',
   },
   {
     time: '03:30 hrs',
