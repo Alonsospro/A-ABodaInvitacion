@@ -16,7 +16,7 @@ export const WEDDING_CONFIG = {
     note: 'Agradecemos profundamente su comprensión y cariño.',
   },
   date: {
-    weddingDateISO: '2026-10-3 T17:15:00',
+    weddingDateISO: '2026-10-3T17:15:00',
     displayDate: 'Sábado, 3 de Octubre de 2026',
     ceremonyTime: '17:15 hrs',
     receptionTime: '20:00 hrs',
@@ -83,7 +83,7 @@ export const ITINERARY: ItineraryItem[] = [
     iconName: 'glasses',
   },
   {
-    time: '22:30 hrs',
+    time: '22:00 hrs',
     title: 'Cena',
     description: 'Banquete especial para celebrar juntos',
     iconName: 'utensils',
