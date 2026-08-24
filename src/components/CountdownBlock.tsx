@@ -42,11 +42,16 @@ export const CountdownBlock: React.FC = () => {
 
   const handleAddToCalendar = () => {
     const title = encodeURIComponent('Boda de Andrea & Alonso');
-    const details = encodeURIComponent('Celebración de la boda de Andrea & Alonso.\nCeremonia: 17:15 hrs Capilla María Auxiliadora\nRecepción: 19:30 hrs Salón Superfiesta Villa Fraterna');
-    const location = encodeURIComponent('Parroquia María Auxiliadora, Santa Cruz de la Sierra, Bolivia');
-    // ISO format for Google Calendar: 20261114T211500Z
-    const startDate = '20261114T211500Z';
-    const endDate = '20261115T073000Z';
+    const details = encodeURIComponent(
+      'Celebración de la boda de Andrea & Alonso.\n' +
+      'Fecha: Sábado, 3 de Octubre de 2026\n' +
+      'Ceremonia: 17:15 hrs - Parroquia María Auxiliadora\n' +
+      'Recepción: 19:30 hrs - Salón Superfiesta, Villafraterna'
+    );
+    const location = encodeURIComponent('Parroquia María Auxiliadora, Av. Argentina esq. Av. Don Bosco, Santa Cruz de la Sierra, Bolivia');
+    // Formato UTC (Bolivia UTC-4: 17:15 hora local = 21:15 UTC del 3 de Octubre de 2026)
+    const startDate = '20261003T211500Z';
+    const endDate = '20261004T073000Z';
     const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startDate}/${endDate}&details=${details}&location=${location}`;
     window.open(googleCalendarUrl, '_blank', 'noopener,noreferrer');
   };
