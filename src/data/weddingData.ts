@@ -16,7 +16,7 @@ export const WEDDING_CONFIG = {
     note: 'Agradecemos profundamente su comprensión y cariño.',
   },
   date: {
-    weddingDateISO: '2026-10-3T17:15:00',
+    weddingDateISO: '2026-10-03T17:15:00',
     displayDate: 'Sábado, 3 de Octubre de 2026',
     ceremonyTime: '17:15 hrs',
     receptionTime: '20:00 hrs',
@@ -44,10 +44,8 @@ export const WEDDING_CONFIG = {
     qrImagePath: '/img/qr.jpg',
     bankDetails: {
       accountHolder: 'Andrea & Alonso',
-      bankName: 'Banco Nacional / Banco Unión',
-      accountNumber: '1000-4829-1029-38',
+      bankName: 'Banco Mercantil
       cbuAlias: 'ANDREA.Y.ALONSO.BODA',
-      ciNit: '7482910 SCZ',
     },
   },
   music: {
