@@ -16,7 +16,7 @@ export const WEDDING_CONFIG = {
     note: 'Agradecemos profundamente su comprensión y cariño.',
   },
   date: {
-    weddingDateISO: '2026-10-03 T17:15:00',
+    weddingDateISO: '2026-10-03T17:15:00',
     displayDate: 'Sábado, 3 de Octubre de 2026',
     ceremonyTime: '17:15 hrs',
     receptionTime: '20:00 hrs',
