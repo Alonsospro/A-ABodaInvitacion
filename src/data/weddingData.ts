@@ -16,7 +16,7 @@ export const WEDDING_CONFIG = {
     note: 'Agradecemos profundamente su comprensión y cariño.',
   },
   date: {
-    weddingDateISO: '2026-10-3T17:15:00',
+    weddingDateISO: '2026-10-03T17:15:00',
     displayDate: 'Sábado, 3 de Octubre de 2026',
     ceremonyTime: '17:15 hrs',
     receptionTime: '20:00 hrs',
@@ -133,7 +133,6 @@ export const LOCATIONS: LocationDetail[] = [
     address: 'Av. Roca y Coronado entre 4to y 5to anillo zona Villafraterna, frente a la plaza VilasBoas',
     mapUrl: 'https://maps.app.goo.gl/NnNNpQAa1SVfWJ2n9',
     embedQuery: 'Salon+Superfiesta+Villafraterna+Roca+y+Coronado+Santa+Cruz',
-    note: 'Parqueo privado y seguridad disponible en las instalaciones.',
   },
 ];
 
